@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" fill="none">
+  <rect width="300" height="200" fill="#0B1329"/>
+  <!-- Analytical balance in laboratory enclosure -->
+  <rect x="50" y="30" width="200" height="140" rx="4" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+  <!-- Glass chamber -->
+  <rect x="70" y="45" width="160" height="90" rx="2" fill="#38BDF8" fill-opacity="0.1" stroke="#38BDF8" stroke-width="1"/>
+  <!-- Weighing pan -->
+  <rect x="130" y="115" width="40" height="6" rx="2" fill="#E2E8F0"/>
+  <rect x="147" y="121" width="6" height="14" fill="#94A3B8"/>
+  <!-- Calibrated polymer sample -->
+  <ellipse cx="150" cy="113" rx="14" ry="4" fill="#10B981"/>
+  <!-- Digital weight display -->
+  <rect x="90" y="145" width="120" height="20" rx="3" fill="#000000"/>
+  <text x="150" y="159" font-family="monospace" font-size="12" font-weight="bold" fill="#34D399" text-anchor="middle">192.485 g</text>
+  <!-- Calibration sticker -->
+  <rect x="215" y="145" width="30" height="18" rx="2" fill="#F59E0B"/>
+  <text x="230" y="157" font-family="sans-serif" font-size="6" font-weight="bold" fill="#000000" text-anchor="middle">CAL-OK</text>
+  <rect x="10" y="10" width="140" height="18" rx="3" fill="#000000" fill-opacity="0.8"/>
+  <text x="16" y="23" font-family="monospace" font-size="9" fill="#38BDF8">TARA-CAL-99 • METTLER #4</text>
+</svg>

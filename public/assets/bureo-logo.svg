@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" fill="none">
+  <!-- Modern clean typographical wordmark for 'bureo' with iconic fishhook in the 'e' -->
+  <g fill="#0B1C30">
+    <!-- 'b' -->
+    <path d="M16 12 H26 V44 C28 38 34 35 40 35 C52 35 60 44 60 56 C60 68 52 77 40 77 C34 77 28 74 26 68 V76 H16 V12 Z M38 43 C31 43 26 49 26 56 C26 63 31 69 38 69 C45 69 50 63 50 56 C50 49 45 43 38 43 Z"/>
+    
+    <!-- 'u' -->
+    <path d="M68 36 H78 V57 C78 65 82 69 88 69 C94 69 98 65 98 57 V36 H108 V56 C108 70 100 77 88 77 C76 77 68 70 68 56 V36 Z"/>
+    
+    <!-- 'r' -->
+    <path d="M116 36 H126 V44 C128 38 134 35 141 35 V45 C139 45 137 45 135 45 C129 45 126 49 126 57 V76 H116 V36 Z"/>
+    
+    <!-- 'e' with fishhook inside -->
+    <path d="M148 56 C148 44 157 35 170 35 C182 35 190 44 190 56 V58 H158 C159 65 164 70 171 70 C176 70 180 67 182 63 L189 66 C186 73 179 77 170 77 C157 77 148 68 148 56 Z M170 42 C164 42 159 46 158 52 H180 C179 46 175 42 170 42 Z"/>
+    <!-- Fishhook barb detail -->
+    <path d="M182 52 C184 56 181 60 177 60 C175 60 173 59 173 57 C173 55 174 54 176 54 C177 54 178 55 178 56 C178 57 177 58 176 58" stroke="#004AC6" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- 'o' (sleek industrial pill) -->
+    <path d="M198 56 C198 44 207 35 220 35 C233 35 242 44 242 56 C242 68 233 77 220 77 C207 77 198 68 198 56 Z M231 56 C231 48 226 43 220 43 C214 43 209 48 209 56 C209 64 214 69 220 69 C226 69 231 64 231 56 Z"/>
+  </g>
+  <!-- Registered trademark mark -->
+  <circle cx="245" cy="38" r="4" stroke="#0B1C30" stroke-width="1"/>
+  <text x="245" y="41" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#0B1C30" text-anchor="middle">R</text>
+</svg>

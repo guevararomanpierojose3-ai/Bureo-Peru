@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Industrial plant background softly blurred -->
+  <rect width="200" height="200" fill="#E2E8F0"/>
+  <rect x="10" y="10" width="80" height="120" fill="#CBD5E1" opacity="0.6"/>
+  <rect x="120" y="20" width="70" height="90" fill="#94A3B8" opacity="0.4"/>
+  <line x1="20" y1="50" x2="180" y2="50" stroke="#94A3B8" stroke-width="2" stroke-dasharray="4 4"/>
+  <!-- Portrait avatar silhouette with navy button-up shirt -->
+  <!-- Head -->
+  <circle cx="100" cy="72" r="32" fill="#D4A373"/>
+  <!-- Hair and neat beard -->
+  <path d="M72 65 C70 42 85 36 100 36 C115 36 130 42 128 65 C125 50 115 44 100 44 C85 44 75 50 72 65 Z" fill="#2C3E50"/>
+  <path d="M74 76 C76 96 85 106 100 106 C115 106 124 96 126 76 C124 90 116 100 100 100 C84 100 76 90 74 76 Z" fill="#34495E"/>
+  <!-- Collar & Navy shirt -->
+  <path d="M60 128 C60 112 80 110 100 110 C120 110 140 112 140 128 L154 200 H46 Z" fill="#1E293B"/>
+  <polygon points="100,122 84,138 94,142 100,132" fill="#0F172A"/>
+  <polygon points="100,122 116,138 106,142 100,132" fill="#0F172A"/>
+  <!-- Plant ID Badge hanging on chest -->
+  <rect x="110" y="146" width="28" height="36" rx="2" fill="#FFFFFF" stroke="#004AC6" stroke-width="1.5"/>
+  <rect x="114" y="150" width="10" height="12" fill="#64748B"/>
+  <line x1="114" y1="168" x2="134" y2="168" stroke="#1E293B" stroke-width="2"/>
+  <line x1="114" y1="174" x2="130" y2="174" stroke="#64748B" stroke-width="1.5"/>
+</svg>

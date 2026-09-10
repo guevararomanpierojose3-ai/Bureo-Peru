@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#0F172A"/>
+  <!-- Factory cleanroom background -->
+  <rect x="20" y="20" width="360" height="260" rx="6" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <!-- Workstation & Equipment -->
+  <rect x="40" y="140" width="320" height="120" rx="4" fill="#0B132B" />
+  <rect x="60" y="70" width="120" height="80" rx="4" fill="#1E293B" stroke="#004AC6" stroke-width="2"/>
+  <rect x="70" y="80" width="100" height="60" rx="2" fill="#0284C7" fill-opacity="0.2"/>
+  <!-- Screen Waveforms & Telemetry -->
+  <path d="M75 110 L90 100 L105 125 L120 95 L140 115 L160 105" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Engineer in White Cleanroom Lab Coat & Cap -->
+  <circle cx="260" cy="110" r="30" fill="#E2E8F0"/>
+  <!-- Mask & Eyewear -->
+  <rect x="240" y="112" width="40" height="16" rx="4" fill="#38BDF8"/>
+  <rect x="244" y="98" width="32" height="8" rx="2" fill="#0F172A"/>
+  <!-- Coat body -->
+  <path d="M220 145 C220 130 300 130 300 145 L310 240 L210 240 Z" fill="#F8FAFC"/>
+  <!-- Glove inspecting lot sample -->
+  <path d="M210 180 L180 185 L180 195 L210 195 Z" fill="#93C5FD"/>
+  <circle cx="170" cy="190" r="12" fill="#10B981" fill-opacity="0.8"/>
+  <text x="170" y="193" font-family="monospace" font-size="8" fill="#FFFFFF" text-anchor="middle">NET+</text>
+  <!-- Timestamp HUD overlay -->
+  <rect x="30" y="30" width="220" height="24" rx="3" fill="#000000" fill-opacity="0.75"/>
+  <text x="40" y="46" font-family="monospace" font-size="10" fill="#4ADE80">CAM-04 • LOTE #LOT-2026-X88 • 2026-09-09 08:42:15</text>
+</svg>
