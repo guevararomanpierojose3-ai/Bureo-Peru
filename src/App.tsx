@@ -317,7 +317,7 @@ export default function App() {
     return sorted;
   }, [qualityRecords, totalContaminationSumKg]);
 
-  // Monthly quality trends for executive charts
+  // Monthly quality trends for executive charts (Ene - Dic)
   const monthlyQualityTrends = [
     { month: 'Ene', contaminationPercent: 1.68, conformityPercent: 98.32, target: 1.50 },
     { month: 'Feb', contaminationPercent: 1.55, conformityPercent: 98.45, target: 1.50 },
@@ -327,7 +327,10 @@ export default function App() {
     { month: 'Jun', contaminationPercent: 1.45, conformityPercent: 98.55, target: 1.50 },
     { month: 'Jul', contaminationPercent: 1.51, conformityPercent: 98.49, target: 1.50 },
     { month: 'Ago', contaminationPercent: 1.40, conformityPercent: 98.60, target: 1.50 },
-    { month: 'Sep', contaminationPercent: 1.42, conformityPercent: 98.58, target: 1.50 },
+    { month: 'Set', contaminationPercent: 1.42, conformityPercent: 98.58, target: 1.50 },
+    { month: 'Oct', contaminationPercent: 1.34, conformityPercent: 98.66, target: 1.50 },
+    { month: 'Nov', contaminationPercent: 1.26, conformityPercent: 98.74, target: 1.50 },
+    { month: 'Dic', contaminationPercent: 1.15, conformityPercent: 98.85, target: 1.50 },
   ];
 
   // Traceability rankings
@@ -337,14 +340,14 @@ export default function App() {
     { traceability: 'Mar del Sur', processedKg: 460, contaminationKg: 5.4, contaminationPercent: 1.17, status: 'Conforme' },
   ];
 
-  // Heatmap data per area
+  // Heatmap data per area (12 complete months: Ene - Dic)
   const heatmapData = [
-    { area: 'Corte', monthlyContamination: [3.8, 3.5, 3.4, 3.6, 3.2, 3.5, 3.6, 3.4, 3.45] },
-    { area: 'Lavado', monthlyContamination: [1.8, 1.7, 1.6, 1.9, 1.5, 1.6, 1.7, 1.5, 1.45] },
-    { area: 'Tendido', monthlyContamination: [1.2, 1.1, 1.0, 1.3, 1.1, 1.0, 1.1, 1.0, 0.95] },
-    { area: 'Secado', monthlyContamination: [0.9, 0.8, 0.7, 0.8, 0.7, 0.8, 0.7, 0.7, 0.68] },
-    { area: 'Recogido', monthlyContamination: [0.7, 0.6, 0.5, 0.6, 0.6, 0.5, 0.6, 0.5, 0.52] },
-    { area: 'Empaque', monthlyContamination: [0.5, 0.4, 0.4, 0.5, 0.4, 0.4, 0.4, 0.4, 0.42] },
+    { area: 'Corte', monthlyContamination: [3.8, 3.5, 3.4, 3.6, 3.2, 3.5, 3.6, 3.4, 3.5, 3.3, 3.1, 2.9] },
+    { area: 'Lavado', monthlyContamination: [1.8, 1.7, 1.6, 1.9, 1.5, 1.6, 1.7, 1.5, 1.4, 1.4, 1.3, 1.2] },
+    { area: 'Tendido', monthlyContamination: [1.2, 1.1, 1.0, 1.3, 1.1, 1.0, 1.1, 1.0, 0.9, 0.9, 0.8, 0.8] },
+    { area: 'Secado', monthlyContamination: [0.9, 0.8, 0.7, 0.8, 0.7, 0.8, 0.7, 0.7, 0.7, 0.6, 0.6, 0.5] },
+    { area: 'Recogido', monthlyContamination: [0.7, 0.6, 0.5, 0.6, 0.6, 0.5, 0.6, 0.5, 0.5, 0.5, 0.4, 0.4] },
+    { area: 'Empaque', monthlyContamination: [0.5, 0.4, 0.4, 0.5, 0.4, 0.4, 0.4, 0.4, 0.4, 0.3, 0.3, 0.3] },
   ];
 
   // Open counts for badge notifications
